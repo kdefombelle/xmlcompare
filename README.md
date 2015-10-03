@@ -33,7 +33,7 @@ On MacOS
 bin/xmlcompare.sh -c sample/loremIpsum1.xml -t sample/loremIpsum2.xml
 ```
 
-Ignoring attributes comparison / naming to for your Excel report
+Ignoring attributes comparison / naming your Excel report
 ```sh
 bin/xmlcompare.sh -c sample/loremIpsum1.xml -t sample/loremIpsum2.xml -i -r myReport.xlsx
 ```
