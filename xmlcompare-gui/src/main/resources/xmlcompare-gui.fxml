@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kdefombelle.xmlcompare.gui.XmlCompareController">
+   <children>
+      <AnchorPane layoutX="24.0" layoutY="11.0" prefHeight="378.0" prefWidth="576.0">
+         <children>
+            <TextField fx:id="controlFileTextField" disable="true" layoutX="132.0" layoutY="70.0" prefHeight="25.0" prefWidth="253.0" />
+            <Button id="compare" fx:id="compareButton" layoutX="51.0" layoutY="213.0" mnemonicParsing="false" onAction="#compare" text="Compare" />
+            <Label layoutX="54.0" layoutY="74.0" text="Control file" />
+            <Label layoutX="54.0" layoutY="117.0" text="Test file" />
+            <TextField fx:id="testFileTextField" disable="true" layoutX="132.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" />
+            <Hyperlink fx:id="resultHyperlink" layoutX="54.0" layoutY="257.0" text="Hyperlink" />
+            <Button fx:id="openControlFileButton" layoutX="408.0" layoutY="70.0" mnemonicParsing="false" onAction="#openControlFileChooser" text="..." />
+            <Button fx:id="openTestFileButton" layoutX="408.0" layoutY="113.0" mnemonicParsing="false" onAction="#openTestFileChooser" text="..." />
+            <CheckBox fx:id="ignoreAttributesCheckbox" layoutX="47.0" layoutY="166.0" mnemonicParsing="false" onAction="#setIgnoreAttributes" text="ignore attributes" />
+         </children>
+       </AnchorPane>
+   </children>
+</Pane>

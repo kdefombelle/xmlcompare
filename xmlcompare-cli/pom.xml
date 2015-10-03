@@ -1,0 +1,143 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.kdefombelle.xmlcompare</groupId>
+		<artifactId>project</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>fr.kdefombelle.xmlcompare</groupId>
+	<artifactId>xmlcompare-cli</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>xmlcompare-cli</name>
+	<description>xmlcompare :: ${project.artifactId}</description>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+				<version>1.10</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>assemble</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+<!-- 					<binFolder>/</binFolder> -->
+					<binFileExtensions>
+						<unix>.sh</unix>
+					</binFileExtensions>
+					<repositoryName>jar</repositoryName>
+					<repositoryLayout>flat</repositoryLayout>
+					<!-- useWildcardClassPath>true</useWildcardClassPath-->
+					<configurationDirectory>conf</configurationDirectory>
+					<copyConfigurationDirectory>true</copyConfigurationDirectory>
+					<!-- includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath -->
+					<!-- licenseHeaderFile>${project.basedir}/src/main/appassembler/license.txt</licenseHeaderFile -->
+					<assembleDirectory>${project.build.directory}/xmlcompare-cli</assembleDirectory>
+					<!-- platforms>
+						<platform>windows</platform>
+						<platform>unix</platform>
+					</platforms-->
+					<programs>
+						<program>
+							<mainClass>fr.kdefombelle.xmlcompare.cli.XmlComparatorClient</mainClass>
+							<name>xmlcompare</name>
+							<jvmSettings>
+								<initialMemorySize>1024m</initialMemorySize>
+							</jvmSettings>
+						</program>
+					</programs>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.5</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<descriptors>
+						<descriptor>${project.basedir}/src/main/assembly/xmlcompare-assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+
+		<!-- compile scope -->
+		<dependency>
+			<groupId>fr.kdefombelle.xmlcompare</groupId>
+			<artifactId>xmlcompare-core</artifactId>
+			<version>${project.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jopt-simple</groupId>
+			<artifactId>jopt-simple</artifactId>
+			<version>4.9</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- runtime scope -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- test scope -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.0.31-beta</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+</project>

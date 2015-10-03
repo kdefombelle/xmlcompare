@@ -1,0 +1,13 @@
+#ide
+#eclipse
+.classpath
+.project
+.settings
+#intellij
+*.iml
+*.ipr
+*.iws
+.idea
+
+#maven
+target

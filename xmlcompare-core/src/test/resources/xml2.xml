@@ -1,0 +1,8 @@
+<test>
+	<children>
+		<child id="child1">value1</child>
+		<child id="child2">value2</child>
+		<child id="child3">value3</child>
+		<child id="child4Different">value4</child>
+	</children>
+</test>
