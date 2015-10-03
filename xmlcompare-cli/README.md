@@ -4,13 +4,16 @@ XmlCompare
 ----------------------
 Introduction
 ----------------------
-XmlCompare is a command line tool that allows you to compare 2 XML and dump the results in an Excel document.<br/>
-It is based on [XMLUnit](http://www.xmlunit.org/) for the comparison
-As it relies on Excel using [Apcahe POI](https://poi.apache.org/) it is a windows only script.
+XmlCompare is a tool allowing to compare 2 XML files and dump the result in an Excel document.<br/>
+It is based on [XMLUnit](http://www.xmlunit.org/) for the comparison.<br/>
+It relies on Excel using [Apache POI](https://poi.apache.org/).
 
-It produces an Excel report as below:
+It produces an Excel report as illustrated below:
 ![alt text](https://raw.githubusercontent.com/kdefombelle/xmlcompare/master/doc/excelReport.png "Lorem Ipsum XML comparison")
 
+----------------------
+Script
+----------------------
 The typical usage are illustrated below:
 
 On Windows
