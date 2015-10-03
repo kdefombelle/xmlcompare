@@ -15,6 +15,12 @@
 			<outputDirectory></outputDirectory>
 		</file>
 		<file>
+			<source>${project.build.directory}/xmlcompare-cli/bin/xmlcompare.sh</source>
+			<outputDirectory>bin</outputDirectory>
+			<fileMode>0755</fileMode>
+			<lineEnding>unix</lineEnding>
+		</file>
+		<file>
 			<source>${project.build.directory}/xmlcompare-cli/bin/xmlcompare.bat</source>
 			<outputDirectory>bin</outputDirectory>
 		</file>

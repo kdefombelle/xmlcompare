@@ -13,19 +13,18 @@ It produces an Excel report as below:
 
 The typical usage are illustrated below:
 
-Standard
+On Windows
 ```sh
-bin\xmlcompare.bat -c sample\control.xml -t sample\test.xml
+bin\xmlcompare.bat -c sample\loremIpsum1.xml -t sample\loremIpsum1.xml
+```
+On MacOS
+```sh
+bin/xmlcompare.sh -c sample/loremIpsum1.xml -t sample/loremIpsum2.xml
 ```
 
-Ignoring attributes comparison
+Ignoring attributes comparison / naming to for your Excel report
 ```sh
-bin\xmlcompare.bat -c sample\control.xml -t sample\test.xml -i
-```
-
-Setting a name to for your Excel report
-```sh
-bin\xmlcompare.bat -c sample\control.xml -t sample\test.xml -r myReport.xlsx
+bin/xmlcompare.sh -c sample/loremIpsum1.xml -t sample/loremIpsum2.xml -i -r myReport.xlsx
 ```
 
 ----------------------
