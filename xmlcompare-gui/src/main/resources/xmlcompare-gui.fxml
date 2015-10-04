@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import java.lang.*?>
@@ -7,17 +8,24 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kdefombelle.xmlcompare.gui.XmlCompareController">
    <children>
-      <AnchorPane layoutX="24.0" layoutY="11.0" prefHeight="378.0" prefWidth="576.0">
+      <AnchorPane layoutX="12.0" layoutY="11.0" prefHeight="378.0" prefWidth="576.0">
          <children>
             <TextField fx:id="controlFileTextField" disable="true" layoutX="132.0" layoutY="70.0" prefHeight="25.0" prefWidth="253.0" />
             <Button id="compare" fx:id="compareButton" layoutX="51.0" layoutY="213.0" mnemonicParsing="false" onAction="#compare" text="Compare" />
             <Label layoutX="54.0" layoutY="74.0" text="Control file" />
             <Label layoutX="54.0" layoutY="117.0" text="Test file" />
             <TextField fx:id="testFileTextField" disable="true" layoutX="132.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" />
-            <Hyperlink fx:id="resultHyperlink" layoutX="54.0" layoutY="257.0" text="Hyperlink" />
+            <Hyperlink fx:id="resultHyperlink" layoutX="51.0" layoutY="257.0" text="Hyperlink" />
             <Button fx:id="openControlFileButton" layoutX="408.0" layoutY="70.0" mnemonicParsing="false" onAction="#openControlFileChooser" text="..." />
             <Button fx:id="openTestFileButton" layoutX="408.0" layoutY="113.0" mnemonicParsing="false" onAction="#openTestFileChooser" text="..." />
             <CheckBox fx:id="ignoreAttributesCheckbox" layoutX="47.0" layoutY="166.0" mnemonicParsing="false" onAction="#setIgnoreAttributes" text="ignore attributes" />
+            <Label fx:id="progressLabel" layoutX="51.0" layoutY="294.0" text="progressLabel" />
+            <ProgressBar fx:id="progressBar" layoutX="51.0" layoutY="321.0" prefWidth="200.0" progress="0.0" />
+            <ImageView fx:id="helpImage" fitHeight="16.0" fitWidth="16.0" layoutX="531.0" layoutY="6.0" onMousePressed="#showHelp" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@information.png" />
+               </image>
+            </ImageView>
          </children>
        </AnchorPane>
    </children>

@@ -2,24 +2,32 @@ package fr.kdefombelle.xmlcompare.gui;
 
 import java.awt.Desktop;
 import java.io.File;
-import java.util.List;
 
+import javafx.collections.ObservableList;
+import javafx.concurrent.WorkerStateEvent;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.Dialog;
 import javafx.scene.control.Hyperlink;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+import javafx.util.Pair;
 
-import org.custommonkey.xmlunit.Difference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
-import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 
 
@@ -45,11 +53,15 @@ public class XmlCompareController extends AnchorPane {
     private CheckBox ignoreAttributesCheckbox;
     @FXML
     private Hyperlink resultHyperlink;
+    @FXML
+    private ProgressBar progressBar;
+    @FXML
+    private Label progressLabel;
 
     private XmlCompareGuiMain application;
 
     private XmlCompareParameters parameters = new XmlCompareParameters();
-    private SimpleXmlComparator xmlComparator = new SimpleXmlComparator();
+    private XmlCompareService service = new XmlCompareService();
 
     //~ ----------------------------------------------------------------------------------------------------------------
     //~ Methods 
@@ -65,31 +77,56 @@ public class XmlCompareController extends AnchorPane {
         controlFileTextField.setTooltip(new Tooltip("Enter absolute path of your control file"));
         testFileTextField.setTooltip(new Tooltip("Enter absolute path of your test file"));
         ignoreAttributesCheckbox.setIndeterminate(false);
+
+        progressBar.visibleProperty().bind(service.runningProperty());
+        progressLabel.visibleProperty().bind(service.runningProperty());
+        progressBar.progressProperty().bind(service.progressProperty());
+        progressLabel.textProperty().bind(service.messageProperty());
+
         resultHyperlink.setVisible(false);
     }
 
     @FXML
     private void compare() {
         logger.debug("Comparison between for " + parameters);
+        if (parameters.getControlFileName() == null) {
+            logger.error("control file is null");
+            return;
+        }
+        if (parameters.getTestFileName() == null) {
+            logger.error("test file is null");
+            return;
+        }
         File controlFile = new File(parameters.getControlFileName());
         File testFile = new File(parameters.getTestFileName());
-        List<Difference> differences = xmlComparator.compare(controlFile, testFile, parameters.isIgnoreAttributes());
-        String resultReportFileName = "report-" + System.nanoTime() + ".xlsx";
-        File resultFile = new File(resultReportFileName);
-        ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(resultFile.getAbsolutePath());
-        excelWriter.write(controlFile, testFile, differences);
 
-        resultHyperlink.setText(resultFile.getAbsolutePath());
-        resultHyperlink.setOnAction((ActionEvent e) -> {
-            if (Desktop.isDesktopSupported()) {
-                try {
-                    Desktop.getDesktop().open(resultFile);
-                } catch (Exception e1) {
-                    logger.error("Impossible to launch application...", e);
+        service.setControlFile(controlFile);
+        service.setTestFile(testFile);
+        service.setIgnoreAttributes(parameters.isIgnoreAttributes());
+        service.restart();
+        service.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+
+                @Override
+                public void handle(WorkerStateEvent t) {
+                    ObservableList<String> rf = (ObservableList<String>) t.getSource().getValue();
+                    //TOO: search a better coding via an object rather than position based info
+                    String reportFileName = rf.get(0);
+                    String reportAboslutePath = rf.get(1);
+
+                    resultHyperlink.setText(reportAboslutePath);
+                    resultHyperlink.setOnAction((ActionEvent event) -> {
+                        if (Desktop.isDesktopSupported()) {
+                            try {
+                                Desktop.getDesktop().open(new File(reportFileName));
+                            } catch (Exception e) {
+                                logger.error("Impossible to launch application...", e);
+                            }
+                        }
+                    });
+                    resultHyperlink.setVisited(false);
+                    resultHyperlink.setVisible(true);
                 }
-            }
-        });
-        resultHyperlink.setVisible(true);
+            });
     }
 
     private String openFileChooser(Button button) {
@@ -121,5 +158,24 @@ public class XmlCompareController extends AnchorPane {
     @FXML
     private void setIgnoreAttributes(ActionEvent event) {
         parameters.setIgnoreAttributes(((CheckBox) event.getSource()).isSelected());
+    }
+
+    @FXML
+    private void showHelp(MouseEvent me) {
+        Dialog<Pair<String, String>> dialog = new Dialog<>();
+        Image icon = new Image("information.png");
+        Stage helpStage = (Stage) dialog.getDialogPane().getScene().getWindow();
+        helpStage.getIcons().add(icon);
+        dialog.setTitle("About XmlComparator");
+        dialog.setHeaderText("XmlComparator version 1.0-SNAPSHOT");
+        dialog.getDialogPane().setContent(new Label("A tool to compare XML files" +
+                "\r\n" +
+                "\r\nkarim.defombelle@murex.com" +
+                "\r\nhttps://github.com/kdefombelle"));
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+        Image productIcon = new Image("product.png");
+        dialog.setGraphic(new ImageView(productIcon));
+
+        dialog.show();
     }
 }

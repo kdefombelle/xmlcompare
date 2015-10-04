@@ -44,7 +44,7 @@ public class XmlCompareGuiMain extends Application {
 
     private XmlCompareParameters xmlCompareParameters;
     private final double WINDOW_WIDTH = 650;
-    private final double WINDOW_HEIGHT = 300;
+    private final double WINDOW_HEIGHT = 400;
 
     //~ ----------------------------------------------------------------------------------------------------------------
     //~ Methods 
@@ -80,7 +80,7 @@ public class XmlCompareGuiMain extends Application {
         Scene scene = new Scene(page, WINDOW_WIDTH, WINDOW_HEIGHT);
         stage.setScene(scene);
         stage.sizeToScene();
-        Image icon = new Image("k.png");
+        Image icon = new Image("product.png");
         stage.getIcons().add(icon);
         return (XmlCompareController) loader.getController();
     }
