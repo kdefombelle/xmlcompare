@@ -1,0 +1,4 @@
+.italic {
+    -fx-font-style: italic;
+    -fx-font-weigh: lighter;
+}

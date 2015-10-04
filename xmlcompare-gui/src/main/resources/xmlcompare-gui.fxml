@@ -6,7 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kdefombelle.xmlcompare.gui.XmlCompareController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" stylesheets="@xmlcompare.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kdefombelle.xmlcompare.gui.XmlCompareController">
    <children>
       <AnchorPane layoutX="12.0" layoutY="11.0" prefHeight="378.0" prefWidth="576.0">
          <children>
@@ -19,7 +19,7 @@
             <Button fx:id="openControlFileButton" layoutX="408.0" layoutY="70.0" mnemonicParsing="false" onAction="#openControlFileChooser" text="..." />
             <Button fx:id="openTestFileButton" layoutX="408.0" layoutY="113.0" mnemonicParsing="false" onAction="#openTestFileChooser" text="..." />
             <CheckBox fx:id="ignoreAttributesCheckbox" layoutX="47.0" layoutY="166.0" mnemonicParsing="false" onAction="#setIgnoreAttributes" text="ignore attributes" />
-            <Label fx:id="progressLabel" layoutX="51.0" layoutY="294.0" text="progressLabel" />
+            <Label fx:id="progressLabel" layoutX="51.0" layoutY="294.0" styleClass="italic" text="progressLabel" />
             <ProgressBar fx:id="progressBar" layoutX="51.0" layoutY="321.0" prefWidth="200.0" progress="0.0" />
             <ImageView fx:id="helpImage" fitHeight="16.0" fitWidth="16.0" layoutX="531.0" layoutY="6.0" onMousePressed="#showHelp" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -28,5 +28,6 @@
             </ImageView>
          </children>
        </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </Pane>
