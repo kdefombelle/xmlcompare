@@ -17,7 +17,7 @@ It proposes a script or a GUI to execute this comparison.
 GUI
 ----------------------
 This project is simple Java FX GUI to use this XmlCompare tool.
-![alt text](https://raw.githubusercontent.com/kdefombelle/xmlcompare/master/doc/xmlcompareGui.png "XmlCompare GUI")
+![alt text](https://raw.githubusercontent.com/kdefombelle/xmlcompare/master/doc/xmlcompare.png "XmlCompare GUI")
 
 ----------------------
 Script
