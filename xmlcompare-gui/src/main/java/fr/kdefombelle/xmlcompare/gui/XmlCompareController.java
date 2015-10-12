@@ -15,7 +15,6 @@ import javafx.scene.control.Dialog;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -28,6 +27,7 @@ import javafx.util.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 
 
@@ -39,10 +39,6 @@ public class XmlCompareController extends AnchorPane {
 
     private final Logger logger = LoggerFactory.getLogger(XmlCompareController.class);
 
-    @FXML
-    private TextField controlFileTextField;
-    @FXML
-    private TextField testFileTextField;
     @FXML
     private Button compareButton;
     @FXML
@@ -57,6 +53,10 @@ public class XmlCompareController extends AnchorPane {
     private ProgressBar progressBar;
     @FXML
     private Label progressLabel;
+    @FXML
+    private Label testFileLabel;
+    @FXML
+    private Label controlFileLabel;
 
     private XmlCompareGuiMain application;
 
@@ -74,8 +74,6 @@ public class XmlCompareController extends AnchorPane {
     @FXML
     private void initialize() {
         logger.debug("Initialise controller");
-        controlFileTextField.setTooltip(new Tooltip("Enter absolute path of your control file"));
-        testFileTextField.setTooltip(new Tooltip("Enter absolute path of your test file"));
         ignoreAttributesCheckbox.setIndeterminate(false);
 
         progressBar.visibleProperty().bind(service.runningProperty());
@@ -102,7 +100,9 @@ public class XmlCompareController extends AnchorPane {
 
         service.setControlFile(controlFile);
         service.setTestFile(testFile);
-        service.setIgnoreAttributes(parameters.isIgnoreAttributes());
+        XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
+        configuration.setIgnoreAttributes(parameters.isIgnoreAttributes());
+        service.setXmlComparatorConfiguration(configuration);
         service.restart();
         service.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
 
@@ -139,10 +139,12 @@ public class XmlCompareController extends AnchorPane {
 
     @FXML
     private void openControlFileChooser(ActionEvent event) {
-        String controleFileName = openFileChooser((Button) event.getSource());
-        if (!controleFileName.isEmpty()) {
-            controlFileTextField.setText(controleFileName);
-            parameters.setControlFileName(controleFileName);
+        String controlFileName = openFileChooser((Button) event.getSource());
+        if (!controlFileName.isEmpty()) {
+            controlFileLabel.setText(controlFileName);
+            Tooltip.install(controlFileLabel, new Tooltip(controlFileName));
+//            controlFileTextField.setText(controleFileName);
+            parameters.setControlFileName(controlFileName);
         }
     }
 
@@ -150,7 +152,9 @@ public class XmlCompareController extends AnchorPane {
     private void openTestFileChooser(ActionEvent event) {
         String testFileName = openFileChooser((Button) event.getSource());
         if (!testFileName.isEmpty()) {
-            testFileTextField.setText(testFileName);
+            testFileLabel.setText(testFileName);
+            Tooltip.install(testFileLabel, new Tooltip(testFileName));
+//            testFileTextField.setText(testFileName);
             parameters.setTestFileName(testFileName);
         }
     }

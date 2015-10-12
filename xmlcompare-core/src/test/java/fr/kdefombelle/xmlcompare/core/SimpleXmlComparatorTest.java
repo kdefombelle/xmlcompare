@@ -7,7 +7,6 @@ import java.io.File;
 import java.net.URL;
 import java.util.List;
 
-import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 import org.custommonkey.xmlunit.Difference;
 import org.junit.Assert;
 import org.junit.Test;
@@ -31,7 +30,8 @@ public class SimpleXmlComparatorTest {
         File file1 = new File(url1.getFile());
         URL url2 = this.getClass().getClassLoader().getResource("xml2.xml");
         File file2 = new File(url2.getFile());
-        List<Difference> differences = xmlComparator.compare(file1, file2, false);
+        XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
+        List<Difference> differences = xmlComparator.compare(file1, file2, configuration);
         Assert.assertTrue(differences.size() != 0);
     }
 
@@ -41,8 +41,22 @@ public class SimpleXmlComparatorTest {
         File file1 = new File(url1.getFile());
         URL url2 = this.getClass().getClassLoader().getResource("xml2.xml");
         File file2 = new File(url2.getFile());
-        List<Difference> differences = xmlComparator.compare(file1, file2, true);
+        XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
+        configuration.setIgnoreAttributes(true);
+        List<Difference> differences = xmlComparator.compare(file1, file2, configuration);
         Assert.assertTrue(differences.size() == 0);
     }
+
+//    @Test
+//    public void testCompareIgnoredXpaths() throws Exception {
+//        URL url1 = this.getClass().getClassLoader().getResource("xml1.xml");
+//        File file1 = new File(url1.getFile());
+//        URL url2 = this.getClass().getClassLoader().getResource("xml2.xml");
+//        File file2 = new File(url2.getFile());
+//        XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
+//        configuration.setIgnoredXpaths(Arrays.asList("\\/test\\[1\\]/children\\[1\\]/child\\[4\\]/\\@id"));
+//        List<Difference> differences = xmlComparator.compare(file1, file2, configuration);
+//        Assert.assertTrue(differences.size() == 0);
+//    }
 
 }

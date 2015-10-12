@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
-import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
@@ -17,6 +15,10 @@ import joptsimple.OptionSpec;
 import org.custommonkey.xmlunit.Difference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
+import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 
 
 /**
@@ -85,7 +87,9 @@ public class XmlComparatorClient {
         String reportFileName = options.valueOf(reportFileOption);
 
         SimpleXmlComparator xmlComparator = new SimpleXmlComparator();
-        List<Difference> differences = xmlComparator.compare(xmlControl, xmlTest, options.has(ignoreAttributesOption));
+        XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
+        configuration.setIgnoreAttributes(options.has(ignoreAttributesOption));
+        List<Difference> differences = xmlComparator.compare(xmlControl, xmlTest, configuration);
 
         ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(reportFileName);
         excelWriter.write(xmlControl, xmlTest, differences);

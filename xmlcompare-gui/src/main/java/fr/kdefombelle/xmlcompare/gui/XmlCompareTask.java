@@ -11,6 +11,7 @@ import org.custommonkey.xmlunit.Difference;
 
 import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
 import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 
 
 public class XmlCompareTask extends Task<ObservableList<String>> {
@@ -26,7 +27,7 @@ public class XmlCompareTask extends Task<ObservableList<String>> {
     //~ ----------------------------------------------------------------------------------------------------------------
 
     private SimpleXmlComparator xmlComparator = new SimpleXmlComparator();
-    private boolean ignoreAttributes;
+    private XmlComparatorConfiguration configuration;
     private File controlFile;
     private File testFile;
 
@@ -34,10 +35,10 @@ public class XmlCompareTask extends Task<ObservableList<String>> {
     //~ Constructors 
     //~ ----------------------------------------------------------------------------------------------------------------
 
-    public XmlCompareTask(File controlFile, File testFile, boolean ignoreAttributes) {
+    public XmlCompareTask(File controlFile, File testFile, XmlComparatorConfiguration configuration) {
         this.controlFile = controlFile;
         this.testFile = testFile;
-        this.ignoreAttributes = ignoreAttributes;
+        this.configuration = configuration;
     }
 
     //~ ----------------------------------------------------------------------------------------------------------------
@@ -49,7 +50,7 @@ public class XmlCompareTask extends Task<ObservableList<String>> {
         updateProgress(0, 100);
         updateMessage("start comparison");
         Thread.sleep(PAUSE);
-        List<Difference> differences = xmlComparator.compare(controlFile, testFile, ignoreAttributes);
+        List<Difference> differences = xmlComparator.compare(controlFile, testFile, configuration);
 
         updateProgress(0, 100);
         updateMessage("writing report");

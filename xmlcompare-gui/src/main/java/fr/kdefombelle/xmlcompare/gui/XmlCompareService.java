@@ -5,6 +5,7 @@ import java.io.File;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 
 
 public class XmlCompareService extends Service<ObservableList<String>> {
@@ -15,7 +16,7 @@ public class XmlCompareService extends Service<ObservableList<String>> {
 
     private File controlFile;
     private File testFile;
-    private boolean ignoreAttributes;
+    private XmlComparatorConfiguration configuration;
 
     //~ ----------------------------------------------------------------------------------------------------------------
     //~ Methods 
@@ -29,13 +30,13 @@ public class XmlCompareService extends Service<ObservableList<String>> {
         this.testFile = testFile;
     }
 
-    public void setIgnoreAttributes(boolean ignoreAttributes) {
-        this.ignoreAttributes = ignoreAttributes;
+    public void setXmlComparatorConfiguration(XmlComparatorConfiguration configuration) {
+        this.configuration = configuration;
     }
 
     @Override
     protected Task<ObservableList<String>> createTask() {
-        return new XmlCompareTask(controlFile, testFile, ignoreAttributes);
+        return new XmlCompareTask(controlFile, testFile, configuration);
     }
 
 }

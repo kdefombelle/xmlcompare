@@ -15,10 +15,10 @@ public interface XmlComparator {
 
     List<Difference> compare(File controlXml, File testXml);
 
-    List<Difference> compare(File controlXml, File testXml, boolean ignoreAttributes);
+    List<Difference> compare(File controlXml, File testXml, XmlComparatorConfiguration configuration);
 
     List<Difference> compare(Reader control, Reader test);
 
-    List<Difference> compare(Reader control, Reader test, boolean ignoreAttributes);
+    List<Difference> compare(Reader control, Reader test, XmlComparatorConfiguration configuration);
 
 }

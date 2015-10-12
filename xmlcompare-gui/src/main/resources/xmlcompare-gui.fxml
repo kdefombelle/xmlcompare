@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -8,26 +9,26 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" stylesheets="@xmlcompare.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kdefombelle.xmlcompare.gui.XmlCompareController">
    <children>
-      <AnchorPane layoutX="12.0" layoutY="11.0" prefHeight="378.0" prefWidth="576.0">
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="378.0" prefWidth="576.0">
          <children>
-            <TextField fx:id="controlFileTextField" disable="true" layoutX="132.0" layoutY="70.0" prefHeight="25.0" prefWidth="253.0" />
-            <Button id="compare" fx:id="compareButton" layoutX="51.0" layoutY="213.0" mnemonicParsing="false" onAction="#compare" text="Compare" />
-            <Label layoutX="54.0" layoutY="74.0" text="Control file" />
-            <Label layoutX="54.0" layoutY="117.0" text="Test file" />
-            <TextField fx:id="testFileTextField" disable="true" layoutX="132.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" />
-            <Hyperlink fx:id="resultHyperlink" layoutX="51.0" layoutY="257.0" text="Hyperlink" />
-            <Button fx:id="openControlFileButton" layoutX="408.0" layoutY="70.0" mnemonicParsing="false" onAction="#openControlFileChooser" text="..." />
-            <Button fx:id="openTestFileButton" layoutX="408.0" layoutY="113.0" mnemonicParsing="false" onAction="#openTestFileChooser" text="..." />
-            <CheckBox fx:id="ignoreAttributesCheckbox" layoutX="47.0" layoutY="166.0" mnemonicParsing="false" onAction="#setIgnoreAttributes" text="ignore attributes" />
-            <Label fx:id="progressLabel" layoutX="51.0" layoutY="294.0" styleClass="italic" text="progressLabel" />
-            <ProgressBar fx:id="progressBar" layoutX="51.0" layoutY="321.0" prefWidth="200.0" progress="0.0" />
+            <Button id="compare" fx:id="compareButton" layoutX="48.0" layoutY="164.0" mnemonicParsing="false" onAction="#compare" text="Compare" />
+            <Hyperlink fx:id="resultHyperlink" layoutX="51.0" layoutY="227.0" text="Hyperlink" />
+            <CheckBox fx:id="ignoreAttributesCheckbox" layoutX="51.0" layoutY="125.0" mnemonicParsing="false" onAction="#setIgnoreAttributes" text="ignore attributes" />
+            <Label fx:id="progressLabel" layoutX="51.0" layoutY="259.0" styleClass="italic" text="progressLabel" />
+            <ProgressBar fx:id="progressBar" layoutX="51.0" layoutY="286.0" prefWidth="200.0" progress="0.0" />
             <ImageView fx:id="helpImage" fitHeight="16.0" fitWidth="16.0" layoutX="531.0" layoutY="6.0" onMousePressed="#showHelp" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@information.png" />
                </image>
             </ImageView>
+            <Label layoutX="51.0" layoutY="36.0" text="Control file" />
+            <Label layoutX="51.0" layoutY="83.0" text="Test file" />
+            <Button fx:id="openTestFileButton" layoutX="405.0" layoutY="79.0" mnemonicParsing="false" onAction="#openTestFileChooser" text="..." />
+            <Label fx:id="testFileLabel" layoutX="136.0" layoutY="83.0" prefHeight="17.0" prefWidth="253.0" styleClass="italic" text="Please select a test file" />
+            <Label fx:id="controlFileLabel" layoutX="136.0" layoutY="36.0" prefHeight="17.0" prefWidth="253.0" styleClass="italic" text="Please select a control file" />
+            <Button fx:id="openControlFileButton" layoutX="405.0" layoutY="32.0" mnemonicParsing="false" onAction="#openControlFileChooser" text="..." />
+            <Separator layoutX="51.0" layoutY="212.0" prefHeight="5.0" prefWidth="475.0" />
          </children>
        </AnchorPane>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </Pane>
