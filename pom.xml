@@ -20,6 +20,7 @@
 		<module>xmlcompare-core</module>
 		<module>xmlcompare-gui</module>
 		<module>xmlcompare-cli</module>
+		<module>xmlcompare-rs</module>
 	</modules>
 
 	<build>
