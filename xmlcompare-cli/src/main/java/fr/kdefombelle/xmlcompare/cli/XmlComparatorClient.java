@@ -41,7 +41,7 @@ public class XmlComparatorClient {
     private static final String OPT_IGNORE_ATTRIBUTES = "ignoreAttributes";
     private static final String OPT_IGNORE_ATTRIBUTES_SHORT = "i";
 
-    static final Logger logger = LoggerFactory.getLogger(XmlComparatorClient.class);
+    private static final Logger logger = LoggerFactory.getLogger(XmlComparatorClient.class);
 
     //~ ----------------------------------------------------------------------------------------------------------------
     //~ Methods 
