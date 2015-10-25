@@ -42,7 +42,11 @@ public class ExcelDifferenceWriter {
     //~ Methods 
     //~ ----------------------------------------------------------------------------------------------------------------
 
-    public void write(File xmlControl, File xmlTest, List<Difference> differences) {
+    public void write(List<Difference> differences) {
+        write("control", "test", differences);
+    }
+
+    public void write(String controlIdentifier, String testIdentifier, List<Difference> differences) {
         Workbook wb = new SXSSFWorkbook();
 
         try(FileOutputStream fileOut = new FileOutputStream(fileName)) {
@@ -52,12 +56,10 @@ public class ExcelDifferenceWriter {
             CellStyle titleStyle = getTitleCellStyle(wb);
 
             Row row0 = sheet1.createRow(++rowIndex);
-            row0.createCell(0).setCellValue(xmlControl.getName());
-
-            row0.createCell(0).setCellValue(xmlControl.getAbsolutePath());
+            row0.createCell(0).setCellValue(controlIdentifier);
             createStyledCell(row0, 1, titleStyle).setCellValue("control");
             createStyledCell(row0, 2, titleStyle).setCellValue("test");
-            row0.createCell(3).setCellValue(xmlTest.getAbsolutePath());
+            row0.createCell(3).setCellValue(testIdentifier);
 
             Row row1 = sheet1.createRow(++rowIndex);
 
@@ -83,7 +85,12 @@ public class ExcelDifferenceWriter {
         } catch (IOException e) {
             throw new XmlCompareException("Exception while writing report", e);
         }
+    }
 
+    public void write(File xmlControl, File xmlTest, List<Difference> differences) {
+        String controlFileName = xmlControl.getAbsolutePath();
+        String testFileAbsolutePath = xmlTest.getAbsolutePath();
+        write(controlFileName, testFileAbsolutePath, differences);
     }
 
     private CellStyle getTitleCellStyle(Workbook wb) {
