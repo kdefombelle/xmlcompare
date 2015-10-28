@@ -1,0 +1,2749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xc:XmlCache xmlns:xc="XmlCache" xmlns:mp="mx.MarketParameters" xmlns:fx="mx.MarketParameters.Forex" xmlns:fxsp="mx.MarketParameters.Forex.Spot">
+  <xc:XmlCacheArea xc:value="MarketParameters">
+    <mp:nickName xc:value="MDS" xmlns:mp="mx.MarketParameters">
+      <mp:date xc:value="20150720">
+        <fx:forex xmlns:fx="mx.MarketParameters.Forex">
+          <fxsp:spot xmlns:fxsp="mx.MarketParameters.Forex.Spot">
+            <fxsp:pair xc:value="AED/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">410.1496032</mp:ask>
+              <mp:bid xc:keyFormat="N">410.1496032</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">410.1496032</mp:mid>
+              <mp:quotation xc:keyFormat="C">AED-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AED/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.3757232</mp:ask>
+              <mp:bid xc:keyFormat="N">9.3757232</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.3757232</mp:mid>
+              <mp:quotation xc:keyFormat="C">AED-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/AED" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.6730500</mp:ask>
+              <mp:bid xc:keyFormat="N">3.6730500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.6730500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-AED</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/ANG" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.7700000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.7500000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.7600000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-ANG</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/ARS" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.8803190</mp:ask>
+              <mp:bid xc:keyFormat="N">9.8803190</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.8803190</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-ARS</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/ARS" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.1226000</mp:ask>
+              <mp:bid xc:keyFormat="N">9.1135000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.1180500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-ARS</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/CAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.9576975</mp:ask>
+              <mp:bid xc:keyFormat="N">0.9576975</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.9576975</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-CAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.7102750</mp:ask>
+              <mp:bid xc:keyFormat="N">0.7102750</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.7102750</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">18.1917853</mp:ask>
+              <mp:bid xc:keyFormat="N">18.1917853</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">18.1917853</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.0778226</mp:ask>
+              <mp:bid xc:keyFormat="N">5.0778226</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.0778226</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/AUD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.4693878</mp:ask>
+              <mp:bid xc:keyFormat="N">1.4693878</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.4693878</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-AUD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/AUD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.1088209</mp:ask>
+              <mp:bid xc:keyFormat="N">2.1088209</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.1088209</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-AUD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.7162699</mp:ask>
+              <mp:bid xc:keyFormat="N">5.7162699</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.7162699</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">91.6465987</mp:ask>
+              <mp:bid xc:keyFormat="N">91.6465987</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">91.6465987</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/KRW" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">852.3705207</mp:ask>
+              <mp:bid xc:keyFormat="N">852.3705207</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">852.3705207</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-KRW</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1110.9684250</mp:ask>
+              <mp:bid xc:keyFormat="N">1110.9684250</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1110.9684250</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.0530633</mp:ask>
+              <mp:bid xc:keyFormat="N">6.0530633</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.0530633</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/NZD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.1215117</mp:ask>
+              <mp:bid xc:keyFormat="N">1.1215117</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.1215117</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-NZD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/AUD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3544651</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3544651</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3544651</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-AUD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.3771726</mp:ask>
+              <mp:bid xc:keyFormat="N">6.3771726</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.3771726</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">25.3959344</mp:ask>
+              <mp:bid xc:keyFormat="N">25.3959344</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">25.3959344</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.7374500</mp:ask>
+              <mp:bid xc:keyFormat="N">0.7374500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.7374500</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="AUD/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.1762378</mp:ask>
+              <mp:bid xc:keyFormat="N">9.1762378</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.1762378</mp:mid>
+              <mp:quotation xc:keyFormat="C">AUD-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/BGN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.8478430</mp:ask>
+              <mp:bid xc:keyFormat="N">1.8478430</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.8478430</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-BGN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/BGN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.9285371</mp:ask>
+              <mp:bid xc:keyFormat="N">1.9285371</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.9285371</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-BGN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/BGN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.7799000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.7796000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.7797500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-BGN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/BHD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.4085822</mp:ask>
+              <mp:bid xc:keyFormat="N">0.4085822</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.4085822</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-BHD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BHD/OMR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0210974</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0210974</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0210974</mp:mid>
+              <mp:quotation xc:keyFormat="C">BHD-OMR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BHD/SAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.9464276</mp:ask>
+              <mp:bid xc:keyFormat="N">9.9464276</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.9464276</mp:mid>
+              <mp:quotation xc:keyFormat="C">BHD-SAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/BHD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3770600</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3770600</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3770600</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-BHD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/BMD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-BMD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BR1/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1484500</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1484500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1484500</mp:mid>
+              <mp:quotation xc:keyFormat="C">BR1-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BR2/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1484500</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1484500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1484500</mp:mid>
+              <mp:quotation xc:keyFormat="C">BR2-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BR2/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">BR2-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="BR3/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1484500</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1484500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1484500</mp:mid>
+              <mp:quotation xc:keyFormat="C">BR3-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.4116604</mp:ask>
+              <mp:bid xc:keyFormat="N">3.4116604</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.4116604</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.0253345</mp:ask>
+              <mp:bid xc:keyFormat="N">0.0253345</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.0253345</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/BRL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1485000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1484000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1484500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-BRL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.7416485</mp:ask>
+              <mp:bid xc:keyFormat="N">0.7416485</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.7416485</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">18.9953352</mp:ask>
+              <mp:bid xc:keyFormat="N">18.9953352</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">18.9953352</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.3021152</mp:ask>
+              <mp:bid xc:keyFormat="N">5.3021152</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.3021152</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/CAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.4072290</mp:ask>
+              <mp:bid xc:keyFormat="N">1.4072290</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.4072290</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-CAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/CAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.0196126</mp:ask>
+              <mp:bid xc:keyFormat="N">2.0196126</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.0196126</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-CAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">221.2779254</mp:ask>
+              <mp:bid xc:keyFormat="N">221.2779254</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">221.2779254</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">95.6947234</mp:ask>
+              <mp:bid xc:keyFormat="N">95.6947234</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">95.6947234</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1160.0410439</mp:ask>
+              <mp:bid xc:keyFormat="N">1160.0410439</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1160.0410439</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.2722563</mp:ask>
+              <mp:bid xc:keyFormat="N">12.2722563</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.2722563</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.3204334</mp:ask>
+              <mp:bid xc:keyFormat="N">6.3204334</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.3204334</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/CAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.8539345</mp:ask>
+              <mp:bid xc:keyFormat="N">0.8539345</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.8539345</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-CAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.9457650</mp:ask>
+              <mp:bid xc:keyFormat="N">2.9457650</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.9457650</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.6588589</mp:ask>
+              <mp:bid xc:keyFormat="N">6.6588589</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.6588589</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">26.5176989</mp:ask>
+              <mp:bid xc:keyFormat="N">26.5176989</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">26.5176989</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CAD/TRY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.0688927</mp:ask>
+              <mp:bid xc:keyFormat="N">2.0688927</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.0688927</mp:mid>
+              <mp:quotation xc:keyFormat="C">CAD-TRY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.2986500</mp:ask>
+              <mp:bid xc:keyFormat="N">1.2986500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.2986500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">25.6123138</mp:ask>
+              <mp:bid xc:keyFormat="N">25.6123138</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">25.6123138</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.1490941</mp:ask>
+              <mp:bid xc:keyFormat="N">7.1490941</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.1490941</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0436693</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0436693</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0436693</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.4978427</mp:ask>
+              <mp:bid xc:keyFormat="N">1.4978427</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.4978427</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/HRK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.1540259</mp:ask>
+              <mp:bid xc:keyFormat="N">7.1540259</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.1540259</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-HRK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">298.3595494</mp:ask>
+              <mp:bid xc:keyFormat="N">298.3595494</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">298.3595494</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/ISK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">138.7374760</mp:ask>
+              <mp:bid xc:keyFormat="N">138.7374760</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">138.7374760</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-ISK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">129.0297461</mp:ask>
+              <mp:bid xc:keyFormat="N">129.0297461</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">129.0297461</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1564.1385039</mp:ask>
+              <mp:bid xc:keyFormat="N">1564.1385039</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1564.1385039</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">16.5472668</mp:ask>
+              <mp:bid xc:keyFormat="N">16.5472668</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">16.5472668</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.5221409</mp:ask>
+              <mp:bid xc:keyFormat="N">8.5221409</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.5221409</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.6333193</mp:ask>
+              <mp:bid xc:keyFormat="N">0.6333193</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.6333193</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.9719151</mp:ask>
+              <mp:bid xc:keyFormat="N">3.9719151</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.9719151</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="RON/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.2360806</mp:ask>
+              <mp:bid xc:keyFormat="N">0.2360806</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.2360806</mp:mid>
+              <mp:quotation xc:keyFormat="C">RON-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="RUB/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.0169204</mp:ask>
+              <mp:bid xc:keyFormat="N">0.0169204</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.0169204</mp:mid>
+              <mp:quotation xc:keyFormat="C">RUB-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.9784561</mp:ask>
+              <mp:bid xc:keyFormat="N">8.9784561</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.9784561</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">188.5012719</mp:ask>
+              <mp:bid xc:keyFormat="N">188.5012719</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">188.5012719</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">22.3983803</mp:ask>
+              <mp:bid xc:keyFormat="N">22.3983803</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">22.3983803</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">35.7550745</mp:ask>
+              <mp:bid xc:keyFormat="N">35.7550745</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">35.7550745</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/TRY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.7895864</mp:ask>
+              <mp:bid xc:keyFormat="N">2.7895864</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.7895864</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-TRY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CHF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.9631500</mp:ask>
+              <mp:bid xc:keyFormat="N">0.9631500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.9631500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CHF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CHF/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.9192753</mp:ask>
+              <mp:bid xc:keyFormat="N">12.9192753</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.9192753</mp:mid>
+              <mp:quotation xc:keyFormat="C">CHF-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/CLP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">695.3027760</mp:ask>
+              <mp:bid xc:keyFormat="N">695.3027760</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">695.3027760</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-CLP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CLP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">641.9100000</mp:ask>
+              <mp:bid xc:keyFormat="N">641.4100000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">641.6600000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CLP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CNH/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.5535478</mp:ask>
+              <mp:bid xc:keyFormat="N">5.5535478</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.5535478</mp:mid>
+              <mp:quotation xc:keyFormat="C">CNH-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CNH" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.2009910</mp:ask>
+              <mp:bid xc:keyFormat="N">6.2009910</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.2009910</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CNH</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CNO/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.5457144</mp:ask>
+              <mp:bid xc:keyFormat="N">5.5457144</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.5457144</mp:mid>
+              <mp:quotation xc:keyFormat="C">CNO-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CNO" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.2097500</mp:ask>
+              <mp:bid xc:keyFormat="N">6.2097500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.2097500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CNO</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/CNY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.7339238</mp:ask>
+              <mp:bid xc:keyFormat="N">6.7339238</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.7339238</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-CNY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CNY/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.5415648</mp:ask>
+              <mp:bid xc:keyFormat="N">5.5415648</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.5415648</mp:mid>
+              <mp:quotation xc:keyFormat="C">CNY-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CNY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.2144000</mp:ask>
+              <mp:bid xc:keyFormat="N">6.2144000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.2144000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CNY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/COP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2674.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">2671.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2672.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-COP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CRC" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">541.5000000</mp:ask>
+              <mp:bid xc:keyFormat="N">531.5000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">536.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CRC</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CYP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3980000</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3975000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3977500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CYP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.5825957</mp:ask>
+              <mp:bid xc:keyFormat="N">3.5825957</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.5825957</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">26.7307866</mp:ask>
+              <mp:bid xc:keyFormat="N">26.7307866</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">26.7307866</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">38.3632178</mp:ask>
+              <mp:bid xc:keyFormat="N">38.3632178</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">38.3632178</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HRK/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.5801260</mp:ask>
+              <mp:bid xc:keyFormat="N">3.5801260</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.5801260</mp:mid>
+              <mp:quotation xc:keyFormat="C">HRK-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CZK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">11.6490666</mp:ask>
+              <mp:bid xc:keyFormat="N">11.6490666</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">11.6490666</mp:mid>
+              <mp:quotation xc:keyFormat="C">CZK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CZK/ISK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.4168271</mp:ask>
+              <mp:bid xc:keyFormat="N">5.4168271</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.4168271</mp:mid>
+              <mp:quotation xc:keyFormat="C">CZK-ISK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CZK/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.0378012</mp:ask>
+              <mp:bid xc:keyFormat="N">5.0378012</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.0378012</mp:mid>
+              <mp:quotation xc:keyFormat="C">CZK-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="MXN/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.5478275</mp:ask>
+              <mp:bid xc:keyFormat="N">1.5478275</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.5478275</mp:mid>
+              <mp:quotation xc:keyFormat="C">MXN-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.0053849</mp:ask>
+              <mp:bid xc:keyFormat="N">3.0053849</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.0053849</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.4483538</mp:ask>
+              <mp:bid xc:keyFormat="N">6.4483538</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.4483538</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.8526412</mp:ask>
+              <mp:bid xc:keyFormat="N">2.8526412</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.8526412</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CZK/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.3597908</mp:ask>
+              <mp:bid xc:keyFormat="N">7.3597908</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.3597908</mp:mid>
+              <mp:quotation xc:keyFormat="C">CZK-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="CZK/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.8745161</mp:ask>
+              <mp:bid xc:keyFormat="N">0.8745161</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.8745161</mp:mid>
+              <mp:quotation xc:keyFormat="C">CZK-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.1814018</mp:ask>
+              <mp:bid xc:keyFormat="N">9.1814018</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.1814018</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/CZK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">24.6860000</mp:ask>
+              <mp:bid xc:keyFormat="N">24.6510000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">24.6685000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-CZK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.4612903</mp:ask>
+              <mp:bid xc:keyFormat="N">7.4612903</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.4612903</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">10.7082186</mp:ask>
+              <mp:bid xc:keyFormat="N">10.7082186</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">10.7082186</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.1257325</mp:ask>
+              <mp:bid xc:keyFormat="N">1.1257325</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.1257325</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">41.7338959</mp:ask>
+              <mp:bid xc:keyFormat="N">41.7338959</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">41.7338959</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="ISK/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.0515297</mp:ask>
+              <mp:bid xc:keyFormat="N">0.0515297</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.0515297</mp:mid>
+              <mp:quotation xc:keyFormat="C">ISK-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">18.0484050</mp:ask>
+              <mp:bid xc:keyFormat="N">18.0484050</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">18.0484050</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">218.7883497</mp:ask>
+              <mp:bid xc:keyFormat="N">218.7883497</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">218.7883497</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.3145963</mp:ask>
+              <mp:bid xc:keyFormat="N">2.3145963</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.3145963</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.1920588</mp:ask>
+              <mp:bid xc:keyFormat="N">1.1920588</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.1920588</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.5276592</mp:ask>
+              <mp:bid xc:keyFormat="N">4.5276592</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.5276592</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.7999111</mp:ask>
+              <mp:bid xc:keyFormat="N">1.7999111</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.7999111</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.2558872</mp:ask>
+              <mp:bid xc:keyFormat="N">1.2558872</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.2558872</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SGD/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.0196100</mp:ask>
+              <mp:bid xc:keyFormat="N">5.0196100</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.0196100</mp:mid>
+              <mp:quotation xc:keyFormat="C">SGD-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1330375</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1330375</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1330375</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.5627792</mp:ask>
+              <mp:bid xc:keyFormat="N">2.5627792</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.5627792</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/DKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.8856500</mp:ask>
+              <mp:bid xc:keyFormat="N">6.8856500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.8856500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-DKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="DKK/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.8071206</mp:ask>
+              <mp:bid xc:keyFormat="N">1.8071206</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.8071206</mp:mid>
+              <mp:quotation xc:keyFormat="C">DKK-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/DOP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">45.1000000</mp:ask>
+              <mp:bid xc:keyFormat="N">45.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">45.0500000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-DOP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/DZD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">107.8367296</mp:ask>
+              <mp:bid xc:keyFormat="N">107.8367296</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">107.8367296</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-DZD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/DZD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">99.6921000</mp:ask>
+              <mp:bid xc:keyFormat="N">99.3421000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">99.5171000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-DZD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/EEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.6806665</mp:ask>
+              <mp:bid xc:keyFormat="N">12.6806665</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.6806665</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-EEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/EEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">11.7076000</mp:ask>
+              <mp:bid xc:keyFormat="N">11.6971000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">11.7023500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-EEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/EGP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.4846422</mp:ask>
+              <mp:bid xc:keyFormat="N">8.4846422</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.4846422</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-EGP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="KWD/EGP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">25.8119334</mp:ask>
+              <mp:bid xc:keyFormat="N">25.8119334</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">25.8119334</mp:mid>
+              <mp:quotation xc:keyFormat="C">KWD-EGP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EGP/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">192.3997931</mp:ask>
+              <mp:bid xc:keyFormat="N">192.3997931</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">192.3997931</mp:mid>
+              <mp:quotation xc:keyFormat="C">EGP-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/EGP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.8301000</mp:ask>
+              <mp:bid xc:keyFormat="N">7.8300000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.8300500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-EGP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/GBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.6967817</mp:ask>
+              <mp:bid xc:keyFormat="N">0.6967817</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.6967817</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-GBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.3994170</mp:ask>
+              <mp:bid xc:keyFormat="N">8.3994170</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.3994170</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/HRK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.4664374</mp:ask>
+              <mp:bid xc:keyFormat="N">7.4664374</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.4664374</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-HRK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">311.3887140</mp:ask>
+              <mp:bid xc:keyFormat="N">311.3887140</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">311.3887140</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/IDR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">14460.1002000</mp:ask>
+              <mp:bid xc:keyFormat="N">14460.1002000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">14460.1002000</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-IDR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/ILS" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.0919987</mp:ask>
+              <mp:bid xc:keyFormat="N">4.0919987</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.0919987</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-ILS</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/INR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">68.9494680</mp:ask>
+              <mp:bid xc:keyFormat="N">68.9494680</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">68.9494680</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-INR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/ISK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">144.7960500</mp:ask>
+              <mp:bid xc:keyFormat="N">144.7960500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">144.7960500</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-ISK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/JOD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.7677848</mp:ask>
+              <mp:bid xc:keyFormat="N">0.7677848</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.7677848</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-JOD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">134.6643900</mp:ask>
+              <mp:bid xc:keyFormat="N">134.6643900</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">134.6643900</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/KRW" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1252.4628060</mp:ask>
+              <mp:bid xc:keyFormat="N">1252.4628060</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1252.4628060</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-KRW</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/KWD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3287101</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3287101</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3287101</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-KWD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1632.4434000</mp:ask>
+              <mp:bid xc:keyFormat="N">1632.4434000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1632.4434000</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/LTL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.0924860</mp:ask>
+              <mp:bid xc:keyFormat="N">3.0924860</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.0924860</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-LTL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/LVL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.5507397</mp:ask>
+              <mp:bid xc:keyFormat="N">0.5507397</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.5507397</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-LVL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/MAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">10.6132118</mp:ask>
+              <mp:bid xc:keyFormat="N">10.6132118</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">10.6132118</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-MAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">17.2698750</mp:ask>
+              <mp:bid xc:keyFormat="N">17.2698750</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">17.2698750</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/MYR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.1247234</mp:ask>
+              <mp:bid xc:keyFormat="N">4.1247234</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.1247234</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-MYR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.8942972</mp:ask>
+              <mp:bid xc:keyFormat="N">8.8942972</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.8942972</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/NZD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.6479355</mp:ask>
+              <mp:bid xc:keyFormat="N">1.6479355</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.6479355</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-NZD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/OMR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.4172023</mp:ask>
+              <mp:bid xc:keyFormat="N">0.4172023</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.4172023</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-OMR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/PEN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.4352287</mp:ask>
+              <mp:bid xc:keyFormat="N">3.4352287</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.4352287</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-PEN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/PHP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">49.1378290</mp:ask>
+              <mp:bid xc:keyFormat="N">49.1378290</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">49.1378290</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-PHP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/PKR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">110.3646600</mp:ask>
+              <mp:bid xc:keyFormat="N">110.3646600</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">110.3646600</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-PKR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.1453660</mp:ask>
+              <mp:bid xc:keyFormat="N">4.1453660</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.1453660</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/QAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.9457127</mp:ask>
+              <mp:bid xc:keyFormat="N">3.9457127</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.9457127</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-QAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/RON" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.4208171</mp:ask>
+              <mp:bid xc:keyFormat="N">4.4208171</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.4208171</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-RON</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/RUB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">61.6807988</mp:ask>
+              <mp:bid xc:keyFormat="N">61.6807988</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">61.6807988</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-RUB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.0639334</mp:ask>
+              <mp:bid xc:keyFormat="N">4.0639334</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.0639334</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SDG" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.4745100</mp:ask>
+              <mp:bid xc:keyFormat="N">6.4745100</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.4745100</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SDG</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.3705394</mp:ask>
+              <mp:bid xc:keyFormat="N">9.3705394</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.3705394</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SGD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.4864283</mp:ask>
+              <mp:bid xc:keyFormat="N">1.4864283</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.4864283</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SGD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">196.7329980</mp:ask>
+              <mp:bid xc:keyFormat="N">196.7329980</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">196.7329980</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">23.3765028</mp:ask>
+              <mp:bid xc:keyFormat="N">23.3765028</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">23.3765028</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/SYP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">236.3873400</mp:ask>
+              <mp:bid xc:keyFormat="N">236.3873400</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">236.3873400</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-SYP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">37.3164750</mp:ask>
+              <mp:bid xc:keyFormat="N">37.3164750</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">37.3164750</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/TND" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.1415187</mp:ask>
+              <mp:bid xc:keyFormat="N">2.1415187</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.1415187</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-TND</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/TRY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.9114058</mp:ask>
+              <mp:bid xc:keyFormat="N">2.9114058</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.9114058</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-TRY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/TWD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">33.8516640</mp:ask>
+              <mp:bid xc:keyFormat="N">33.8516640</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">33.8516640</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-TWD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0836000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0836000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0836000</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="XAG/EUR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">14.4610557</mp:ask>
+              <mp:bid xc:keyFormat="N">14.4610557</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">14.4610557</mp:mid>
+              <mp:quotation xc:keyFormat="C">XAG-EUR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="XAU/EUR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1077.5885936</mp:ask>
+              <mp:bid xc:keyFormat="N">1077.5885936</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1077.5885936</mp:mid>
+              <mp:quotation xc:keyFormat="C">XAU-EUR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/YER" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">232.8548040</mp:ask>
+              <mp:bid xc:keyFormat="N">232.8548040</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">232.8548040</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-YER</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="EUR/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">13.4834515</mp:ask>
+              <mp:bid xc:keyFormat="N">13.4834515</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">13.4834515</mp:mid>
+              <mp:quotation xc:keyFormat="C">EUR-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.0545897</mp:ask>
+              <mp:bid xc:keyFormat="N">12.0545897</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.0545897</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/IDR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">20752.6991750</mp:ask>
+              <mp:bid xc:keyFormat="N">20752.6991750</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">20752.6991750</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-IDR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">193.2662663</mp:ask>
+              <mp:bid xc:keyFormat="N">193.2662663</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">193.2662663</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2342.8334750</mp:ask>
+              <mp:bid xc:keyFormat="N">2342.8334750</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2342.8334750</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">24.7852031</mp:ask>
+              <mp:bid xc:keyFormat="N">24.7852031</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">24.7852031</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.7648267</mp:ask>
+              <mp:bid xc:keyFormat="N">12.7648267</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.7648267</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/NZD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.3650673</mp:ask>
+              <mp:bid xc:keyFormat="N">2.3650673</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.3650673</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-NZD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.9493041</mp:ask>
+              <mp:bid xc:keyFormat="N">5.9493041</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.9493041</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">13.4483151</mp:ask>
+              <mp:bid xc:keyFormat="N">13.4483151</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">13.4483151</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/SGD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.1332770</mp:ask>
+              <mp:bid xc:keyFormat="N">2.1332770</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.1332770</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-SGD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">53.5554781</mp:ask>
+              <mp:bid xc:keyFormat="N">53.5554781</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">53.5554781</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/TRY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.1783617</mp:ask>
+              <mp:bid xc:keyFormat="N">4.1783617</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.1783617</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-TRY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.5551500</mp:ask>
+              <mp:bid xc:keyFormat="N">1.5551500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.5551500</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="GBP/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">19.3510425</mp:ask>
+              <mp:bid xc:keyFormat="N">19.3510425</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">19.3510425</mp:mid>
+              <mp:quotation xc:keyFormat="C">GBP-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/GTQ" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.6220000</mp:ask>
+              <mp:bid xc:keyFormat="N">7.6190000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.6205000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-GTQ</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HKD/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">16.0325877</mp:ask>
+              <mp:bid xc:keyFormat="N">16.0325877</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">16.0325877</mp:mid>
+              <mp:quotation xc:keyFormat="C">HKD-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.9443598</mp:ask>
+              <mp:bid xc:keyFormat="N">0.9443598</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.9443598</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.8963643</mp:ask>
+              <mp:bid xc:keyFormat="N">0.8963643</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.8963643</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HKD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.4427458</mp:ask>
+              <mp:bid xc:keyFormat="N">4.4427458</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.4427458</mp:mid>
+              <mp:quotation xc:keyFormat="C">HKD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/HKD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">7.7514000</mp:ask>
+              <mp:bid xc:keyFormat="N">7.7514000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">7.7514000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-HKD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HRK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">41.7051260</mp:ask>
+              <mp:bid xc:keyFormat="N">41.7051260</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">41.7051260</mp:mid>
+              <mp:quotation xc:keyFormat="C">HRK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/HRK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.8011528</mp:ask>
+              <mp:bid xc:keyFormat="N">1.8011528</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.8011528</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-HRK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HRK/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">26.3489783</mp:ask>
+              <mp:bid xc:keyFormat="N">26.3489783</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">26.3489783</mp:mid>
+              <mp:quotation xc:keyFormat="C">HRK-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HRK/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1308777</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1308777</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1308777</mp:mid>
+              <mp:quotation xc:keyFormat="C">HRK-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/HRK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.8933000</mp:ask>
+              <mp:bid xc:keyFormat="N">6.8875000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.8904000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-HRK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="HUF/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.4324639</mp:ask>
+              <mp:bid xc:keyFormat="N">0.4324639</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.4324639</mp:mid>
+              <mp:quotation xc:keyFormat="C">HUF-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">35.0099292</mp:ask>
+              <mp:bid xc:keyFormat="N">35.0099292</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">35.0099292</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">75.1173034</mp:ask>
+              <mp:bid xc:keyFormat="N">75.1173034</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">75.1173034</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">33.2306073</mp:ask>
+              <mp:bid xc:keyFormat="N">33.2306073</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">33.2306073</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SIT/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.5827986</mp:ask>
+              <mp:bid xc:keyFormat="N">1.5827986</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.5827986</mp:mid>
+              <mp:quotation xc:keyFormat="C">SIT-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SKK/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">13.3205859</mp:ask>
+              <mp:bid xc:keyFormat="N">13.3205859</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">13.3205859</mp:mid>
+              <mp:quotation xc:keyFormat="C">SKK-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">106.9547617</mp:ask>
+              <mp:bid xc:keyFormat="N">106.9547617</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">106.9547617</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">287.5200000</mp:ask>
+              <mp:bid xc:keyFormat="N">287.2100000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">287.3650000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="ZAR/HUF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">23.0941398</mp:ask>
+              <mp:bid xc:keyFormat="N">23.0941398</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">23.0941398</mp:mid>
+              <mp:quotation xc:keyFormat="C">ZAR-HUF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="IDR/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.0025807</mp:ask>
+              <mp:bid xc:keyFormat="N">0.0025807</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.0025807</mp:mid>
+              <mp:quotation xc:keyFormat="C">IDR-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/IDR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">13344.5000000</mp:ask>
+              <mp:bid xc:keyFormat="N">13344.5000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">13344.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-IDR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/ILS" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.7788000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.7738000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.7763000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-ILS</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/INR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">63.6300000</mp:ask>
+              <mp:bid xc:keyFormat="N">63.6300000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">63.6300000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-INR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/IQD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1167.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">1165.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1166.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-IQD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/IRR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12297.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">29439.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">20868.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-IRR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/ISK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">133.7700000</mp:ask>
+              <mp:bid xc:keyFormat="N">133.4800000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">133.6250000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-ISK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/JMD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">115.8400000</mp:ask>
+              <mp:bid xc:keyFormat="N">115.1600000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">115.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-JMD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JOD/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2126.1731706</mp:ask>
+              <mp:bid xc:keyFormat="N">2126.1731706</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2126.1731706</mp:mid>
+              <mp:quotation xc:keyFormat="C">JOD-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/JOD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.7088000</mp:ask>
+              <mp:bid xc:keyFormat="N">0.7083000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.7085500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-JOD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/KRW" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.3006236</mp:ask>
+              <mp:bid xc:keyFormat="N">9.3006236</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.3006236</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-KRW</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.1223094</mp:ask>
+              <mp:bid xc:keyFormat="N">12.1223094</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.1223094</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">15.1405319</mp:ask>
+              <mp:bid xc:keyFormat="N">15.1405319</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">15.1405319</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">81.7170262</mp:ask>
+              <mp:bid xc:keyFormat="N">81.7170262</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">81.7170262</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.0782941</mp:ask>
+              <mp:bid xc:keyFormat="N">3.0782941</mp:bid>
+              <mp:formFactor xc:keyFormat="N">100</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.0782941</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/RON" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.0328284</mp:ask>
+              <mp:bid xc:keyFormat="N">0.0328284</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.0328284</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-RON</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">14.3710394</mp:ask>
+              <mp:bid xc:keyFormat="N">14.3710394</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">14.3710394</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="JPY/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.2771072</mp:ask>
+              <mp:bid xc:keyFormat="N">0.2771072</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.2771072</mp:mid>
+              <mp:quotation xc:keyFormat="C">JPY-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">46.2540776</mp:ask>
+              <mp:bid xc:keyFormat="N">46.2540776</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">46.2540776</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">124.2750000</mp:ask>
+              <mp:bid xc:keyFormat="N">124.2750000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">124.2750000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="ZAR/JPY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.9873827</mp:ask>
+              <mp:bid xc:keyFormat="N">9.9873827</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.9873827</mp:mid>
+              <mp:quotation xc:keyFormat="C">ZAR-JPY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/KRW" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1155.8350000</mp:ask>
+              <mp:bid xc:keyFormat="N">1155.8350000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1155.8350000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-KRW</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="KWD/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4966.2106478</mp:ask>
+              <mp:bid xc:keyFormat="N">4966.2106478</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4966.2106478</mp:mid>
+              <mp:quotation xc:keyFormat="C">KWD-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/KWD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3033500</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3033500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3033500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-KWD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/KYD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.8300000</mp:ask>
+              <mp:bid xc:keyFormat="N">0.8200000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.8250000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-KYD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/KZT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">186.2100000</mp:ask>
+              <mp:bid xc:keyFormat="N">186.1900000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">186.2000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-KZT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">183.5382123</mp:ask>
+              <mp:bid xc:keyFormat="N">183.5382123</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">183.5382123</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="QAR/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">413.7258671</mp:ask>
+              <mp:bid xc:keyFormat="N">413.7258671</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">413.7258671</mp:mid>
+              <mp:quotation xc:keyFormat="C">QAR-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SAR/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">401.6904863</mp:ask>
+              <mp:bid xc:keyFormat="N">401.6904863</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">401.6904863</mp:mid>
+              <mp:quotation xc:keyFormat="C">SAR-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SDG/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">252.1338912</mp:ask>
+              <mp:bid xc:keyFormat="N">252.1338912</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">252.1338912</mp:mid>
+              <mp:quotation xc:keyFormat="C">SDG-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">174.2101855</mp:ask>
+              <mp:bid xc:keyFormat="N">174.2101855</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">174.2101855</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SYP/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.9057988</mp:ask>
+              <mp:bid xc:keyFormat="N">6.9057988</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.9057988</mp:mid>
+              <mp:quotation xc:keyFormat="C">SYP-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TND/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">762.2830542</mp:ask>
+              <mp:bid xc:keyFormat="N">762.2830542</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">762.2830542</mp:mid>
+              <mp:quotation xc:keyFormat="C">TND-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">560.7062396</mp:ask>
+              <mp:bid xc:keyFormat="N">560.7062396</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">560.7062396</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1509.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">1504.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1506.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="ZAR/LBP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">121.0701427</mp:ask>
+              <mp:bid xc:keyFormat="N">121.0701427</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">121.0701427</mp:mid>
+              <mp:quotation xc:keyFormat="C">ZAR-LBP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/LTL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.8542000</mp:ask>
+              <mp:bid xc:keyFormat="N">2.8536000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.8539000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-LTL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/LVL" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.5087000</mp:ask>
+              <mp:bid xc:keyFormat="N">0.5078000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.5082500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-LVL</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/LYD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.3690000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.3640000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.3665000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-LYD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/MAD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">9.8069000</mp:ask>
+              <mp:bid xc:keyFormat="N">9.7819000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">9.7944000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-MAD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/MUR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">35.6000000</mp:ask>
+              <mp:bid xc:keyFormat="N">35.3000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">35.4500000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-MUR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.9416796</mp:ask>
+              <mp:bid xc:keyFormat="N">1.9416796</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.9416796</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.8429969</mp:ask>
+              <mp:bid xc:keyFormat="N">1.8429969</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.8429969</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/MXN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">15.9375000</mp:ask>
+              <mp:bid xc:keyFormat="N">15.9375000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">15.9375000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-MXN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/MYR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.8065000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.8065000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.8065000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-MYR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.3972362</mp:ask>
+              <mp:bid xc:keyFormat="N">5.3972362</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.3972362</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.1456000</mp:ask>
+              <mp:bid xc:keyFormat="N">2.1456000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.1456000</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0535447</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0535447</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0535447</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.6282575</mp:ask>
+              <mp:bid xc:keyFormat="N">2.6282575</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.6282575</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.0549837</mp:ask>
+              <mp:bid xc:keyFormat="N">3.0549837</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.0549837</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/NOK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.2081000</mp:ask>
+              <mp:bid xc:keyFormat="N">8.2081000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.2081000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-NOK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NOK/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.5159659</mp:ask>
+              <mp:bid xc:keyFormat="N">1.5159659</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.5159659</mp:mid>
+              <mp:quotation xc:keyFormat="C">NOK-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.6862294</mp:ask>
+              <mp:bid xc:keyFormat="N">5.6862294</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.6862294</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">22.6443781</mp:ask>
+              <mp:bid xc:keyFormat="N">22.6443781</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">22.6443781</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="NZD/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.6575500</mp:ask>
+              <mp:bid xc:keyFormat="N">0.6575500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.6575500</mp:mid>
+              <mp:quotation xc:keyFormat="C">NZD-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/OMR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.3850150</mp:ask>
+              <mp:bid xc:keyFormat="N">0.3850150</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.3850150</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-OMR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/PAB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-PAB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/PEN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.1802000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.1602000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.1702000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-PEN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/PHP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">45.3470000</mp:ask>
+              <mp:bid xc:keyFormat="N">45.3470000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">45.3470000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-PHP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/PKR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">101.8500000</mp:ask>
+              <mp:bid xc:keyFormat="N">101.8500000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">101.8500000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-PKR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.2604854</mp:ask>
+              <mp:bid xc:keyFormat="N">2.2604854</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.2604854</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">47.4585354</mp:ask>
+              <mp:bid xc:keyFormat="N">47.4585354</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">47.4585354</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="PLN/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">5.6391891</mp:ask>
+              <mp:bid xc:keyFormat="N">5.6391891</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.6391891</mp:mid>
+              <mp:quotation xc:keyFormat="C">PLN-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/PLN" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.8263000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.8248000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.8255500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-PLN</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/QAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.6413000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.6413000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.6413000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-QAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/RON" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.0830000</mp:ask>
+              <mp:bid xc:keyFormat="N">4.0765000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.0797500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-RON</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/RSD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">109.6200000</mp:ask>
+              <mp:bid xc:keyFormat="N">109.4000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">109.5100000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-RSD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/RUB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">56.9225000</mp:ask>
+              <mp:bid xc:keyFormat="N">56.9225000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">56.9225000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-RUB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.7504000</mp:ask>
+              <mp:bid xc:keyFormat="N">3.7504000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.7504000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SDG" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.0100000</mp:ask>
+              <mp:bid xc:keyFormat="N">5.9400000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">5.9750000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SDG</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.4946806</mp:ask>
+              <mp:bid xc:keyFormat="N">2.4946806</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.4946806</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SEK/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.9823188</mp:ask>
+              <mp:bid xc:keyFormat="N">3.9823188</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.9823188</mp:mid>
+              <mp:quotation xc:keyFormat="C">SEK-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">3.2185618</mp:ask>
+              <mp:bid xc:keyFormat="N">3.2185618</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">3.2185618</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.6476000</mp:ask>
+              <mp:bid xc:keyFormat="N">8.6476000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.6476000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="ZAR/SEK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">0.6949659</mp:ask>
+              <mp:bid xc:keyFormat="N">0.6949659</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">0.6949659</mp:mid>
+              <mp:quotation xc:keyFormat="C">ZAR-SEK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SGD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">25.1047931</mp:ask>
+              <mp:bid xc:keyFormat="N">25.1047931</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">25.1047931</mp:mid>
+              <mp:quotation xc:keyFormat="C">SGD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SGD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.3717500</mp:ask>
+              <mp:bid xc:keyFormat="N">1.3717500</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.3717500</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SGD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="SKK/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.4158439</mp:ask>
+              <mp:bid xc:keyFormat="N">8.4158439</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.4158439</mp:mid>
+              <mp:quotation xc:keyFormat="C">SKK-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SIT" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">181.6100000</mp:ask>
+              <mp:bid xc:keyFormat="N">181.5000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">181.5550000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SIT</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SKK" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">21.6000000</mp:ask>
+              <mp:bid xc:keyFormat="N">21.5460000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">21.5730000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SKK</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SVC" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">8.7445000</mp:ask>
+              <mp:bid xc:keyFormat="N">8.7345000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">8.7395000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SVC</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/SYP" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">218.4500000</mp:ask>
+              <mp:bid xc:keyFormat="N">217.8500000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">218.1500000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-SYP</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/THB" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">34.4375000</mp:ask>
+              <mp:bid xc:keyFormat="N">34.4375000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">34.4375000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-THB</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/TND" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1.9778000</mp:ask>
+              <mp:bid xc:keyFormat="N">1.9748000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1.9763000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-TND</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/TRY" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">2.6868000</mp:ask>
+              <mp:bid xc:keyFormat="N">2.6868000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">2.6868000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-TRY</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="TRY/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">4.6312512</mp:ask>
+              <mp:bid xc:keyFormat="N">4.6312512</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">4.6312512</mp:mid>
+              <mp:quotation xc:keyFormat="C">TRY-ZAR</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/TTD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.4200000</mp:ask>
+              <mp:bid xc:keyFormat="N">6.3600000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.3900000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-TTD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/TWD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">31.2400000</mp:ask>
+              <mp:bid xc:keyFormat="N">31.2400000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">31.2400000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-TWD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/UAH" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">21.7000000</mp:ask>
+              <mp:bid xc:keyFormat="N">21.3000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">21.5000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-UAH</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/UYU" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">27.0500000</mp:ask>
+              <mp:bid xc:keyFormat="N">27.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">27.0250000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-UYU</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/VEF" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">6.3000000</mp:ask>
+              <mp:bid xc:keyFormat="N">6.2842000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">6.2921000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-VEF</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/VND" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">21821.0000000</mp:ask>
+              <mp:bid xc:keyFormat="N">21821.0000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">21821.0000000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-VND</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="XAG/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">15.7200000</mp:ask>
+              <mp:bid xc:keyFormat="N">15.6200000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">15.6700000</mp:mid>
+              <mp:quotation xc:keyFormat="C">XAG-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="XAU/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1168.0500000</mp:ask>
+              <mp:bid xc:keyFormat="N">1167.3000000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1167.6750000</mp:mid>
+              <mp:quotation xc:keyFormat="C">XAU-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="XPT/USD" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">1060.7500000</mp:ask>
+              <mp:bid xc:keyFormat="N">1050.7500000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">1055.7500000</mp:mid>
+              <mp:quotation xc:keyFormat="C">XPT-USD</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/YER" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">214.9300000</mp:ask>
+              <mp:bid xc:keyFormat="N">214.8500000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">214.8900000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-YER</mp:quotation>
+            </fxsp:pair>
+            <fxsp:pair xc:value="USD/ZAR" xc:type="Fields">
+              <mp:ask xc:keyFormat="N">12.4432000</mp:ask>
+              <mp:bid xc:keyFormat="N">12.4432000</mp:bid>
+              <mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+              <mp:high xc:keyFormat="N">0.0000000</mp:high>
+              <mp:low xc:keyFormat="N">0.0000000</mp:low>
+              <mp:mid xc:keyFormat="N">12.4432000</mp:mid>
+              <mp:quotation xc:keyFormat="C">USD-ZAR</mp:quotation>
+            </fxsp:pair>
+          </fxsp:spot>
+        </fx:forex>
+      </mp:date>
+    </mp:nickName>
+  </xc:XmlCacheArea>
+</xc:XmlCache>

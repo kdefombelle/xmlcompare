@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xc:XmlCache xmlns:xc="XmlCache" xmlns:mp="mx.MarketParameters" xmlns:fx="mx.MarketParameters.Forex" xmlns:fxsp="mx.MarketParameters.Forex.Spot">
+	<xc:XmlCacheArea xc:value="MarketParameters">
+		<mp:nickName xc:value="MDS" xmlns:mp="mx.MarketParameters">
+			<mp:date xc:value="20150720">
+				<fx:forex xmlns:fx="mx.MarketParameters.Forex">
+					<fxsp:spot xmlns:fxsp="mx.MarketParameters.Forex.Spot">
+						<fxsp:pair xc:value="AED/LBP" xc:type="Fields">
+							<mp:ask xc:keyFormat="N">410.1496032</mp:ask>
+							<mp:bid xc:keyFormat="N">410.1496032</mp:bid>
+							<mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+							<mp:high xc:keyFormat="N">0.0000000</mp:high>
+							<mp:quotation xc:keyFormat="C">AED-LBP</mp:quotation>
+						</fxsp:pair>
+						<fxsp:pair xc:value="AED/THB" xc:type="Fields">
+							<mp:ask xc:keyFormat="N">9.3757232</mp:ask>
+							<mp:bid xc:keyFormat="N">9.3757232</mp:bid>
+							<mp:formFactor xc:keyFormat="N">1</mp:formFactor>
+							<mp:high xc:keyFormat="N">0.0000000</mp:high>
+							<mp:quotation xc:keyFormat="C">AED-THB</mp:quotation>
+						</fxsp:pair>
+					</fxsp:spot>
+				</fx:forex>
+			</mp:date>
+		</mp:nickName>
+	</xc:XmlCacheArea>
+</xc:XmlCache>
