@@ -30,14 +30,10 @@ import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 public class XmlCompareResource {
 
     //~ ----------------------------------------------------------------------------------------------------------------
-    //~ Static fields/initializers 
-    //~ ----------------------------------------------------------------------------------------------------------------
-
-    private static final Logger logger = LoggerFactory.getLogger(XmlCompareResource.class);
-
-    //~ ----------------------------------------------------------------------------------------------------------------
     //~ Instance fields 
     //~ ----------------------------------------------------------------------------------------------------------------
+
+    private final Logger logger = LoggerFactory.getLogger(XmlCompareResource.class);
 
     private SimpleXmlComparator xmlComparator = new SimpleXmlComparator();
 
@@ -45,8 +41,16 @@ public class XmlCompareResource {
     //~ Methods 
     //~ ----------------------------------------------------------------------------------------------------------------
 
+//    @OPTIONS
+//    public Response options() {
+//        logger.info("------------options");
+////        ResponseBuilder responseBuilder = Response.ok().header("Access-Control-Allow-Origin", "*");
+//        ResponseBuilder responseBuilder = Response.ok();
+//        return new responseBuilder.em();
+//    }
+
     @POST
-    @Produces("application/vnd.ms-excel")
+    @Produces("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public Response compare(
         //J-
@@ -69,12 +73,16 @@ public class XmlCompareResource {
         ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(reportFileName);
         excelWriter.write(differences);
         File file = new File(reportFileName);
-        ResponseBuilder response = Response.ok((Object) file).header("Content-Disposition", "attachment; filename=" + file.getName());
-        return response.build();
+        //J-
+        ResponseBuilder responseBuilder = Response.ok((Object) file, MediaType.APPLICATION_OCTET_STREAM)
+//                        .header("Access-Control-Allow-Origin","*")
+                        .header("Content-Disposition", "attachment; filename=" + file.getName());
+        //J+
+        return responseBuilder.build();
     }
 
     @GET
-    @Produces("application/vnd.ms-excel")
+    @Produces("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
     public Response compare(@QueryParam("controlFile") String test) {
         String reportFileName = "D:\\tmp\\xmlcompare.xlsx";
         logger.info("XXXXXXXXXX" + test);
@@ -83,7 +91,11 @@ public class XmlCompareResource {
         ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(reportFileName);
         excelWriter.write(differences);
         File file = new File(reportFileName);
-        ResponseBuilder response = Response.ok((Object) file).header("Content-Disposition", "attachment; filename=" + file.getName());
+        //J-
+        ResponseBuilder response = Response.ok((Object) file)
+                       // .header("Access-Control-Allow-Origin","*")
+                        .header("Content-Disposition","attachment; filename=" + file.getName());
+        //J+
         return response.build();
     }
 }

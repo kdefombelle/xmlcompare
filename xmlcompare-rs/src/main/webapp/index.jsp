@@ -20,7 +20,11 @@
 					<td><input type="file" name="controlFile" size="100" /></td>
 				</tr>
 				<tr>
-					<td><input type="submit" value="Upload File" /></td>
+					<td>Select File 2 :</td>
+					<td><input type="file" name="testFile" size="100" /></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Upload Files" /></td>
 					<td><input type="reset" value="Reset" /></td>
 				</tr>
 			</table>
