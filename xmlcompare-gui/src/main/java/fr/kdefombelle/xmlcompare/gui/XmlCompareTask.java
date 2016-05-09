@@ -1,6 +1,7 @@
 package fr.kdefombelle.xmlcompare.gui;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.util.List;
 
 import javafx.collections.FXCollections;
@@ -57,9 +58,10 @@ public class XmlCompareTask extends Task<ObservableList<String>> {
         Thread.sleep(PAUSE);
         String resultReportFileName = "report-" + System.nanoTime() + ".xlsx";
         File resultFile = new File(resultReportFileName);
-        ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(resultFile.getAbsolutePath());
-        excelWriter.write(controlFile, testFile, differences);
-
+        try(FileOutputStream fos = new FileOutputStream(resultFile.getAbsolutePath())) {
+            ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter();
+            excelWriter.write(controlFile, testFile, differences, fos);
+        }
         updateProgress(0, 100);
         updateMessage("done");
         Thread.sleep(PAUSE);

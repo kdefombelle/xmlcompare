@@ -4,8 +4,8 @@
 package fr.kdefombelle.xmlcompare.core;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.util.List;
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -28,69 +28,54 @@ public class ExcelDifferenceWriter {
 
     final Logger logger = LoggerFactory.getLogger(ExcelDifferenceWriter.class);
 
-    private String fileName;
-
-    //~ ----------------------------------------------------------------------------------------------------------------
-    //~ Constructors 
-    //~ ----------------------------------------------------------------------------------------------------------------
-
-    public ExcelDifferenceWriter(String fileName) {
-        this.fileName = fileName;
-    }
-
     //~ ----------------------------------------------------------------------------------------------------------------
     //~ Methods 
     //~ ----------------------------------------------------------------------------------------------------------------
 
-    public void write(List<Difference> differences) {
-        write("control", "test", differences);
+    public void write(List<Difference> differences, OutputStream os) throws IOException {
+        write("control", "test", differences, os);
     }
 
-    public void write(String controlIdentifier, String testIdentifier, List<Difference> differences) {
+    public void write(String controlIdentifier, String testIdentifier, List<Difference> differences, OutputStream os) throws IOException {
         Workbook wb = new SXSSFWorkbook();
 
-        try(FileOutputStream fileOut = new FileOutputStream(fileName)) {
-            Sheet sheet1 = wb.createSheet("Xmlcompare");
-            int rowIndex = -1;
+        Sheet sheet1 = wb.createSheet("Xmlcompare");
+        int rowIndex = -1;
 
-            CellStyle titleStyle = getTitleCellStyle(wb);
+        CellStyle titleStyle = getTitleCellStyle(wb);
 
-            Row row0 = sheet1.createRow(++rowIndex);
-            row0.createCell(0).setCellValue(controlIdentifier);
-            createStyledCell(row0, 1, titleStyle).setCellValue("control");
-            createStyledCell(row0, 2, titleStyle).setCellValue("test");
-            row0.createCell(3).setCellValue(testIdentifier);
+        Row row0 = sheet1.createRow(++rowIndex);
+        row0.createCell(0).setCellValue(controlIdentifier);
+        createStyledCell(row0, 1, titleStyle).setCellValue("control");
+        createStyledCell(row0, 2, titleStyle).setCellValue("test");
+        row0.createCell(3).setCellValue(testIdentifier);
 
-            Row row1 = sheet1.createRow(++rowIndex);
+        Row row1 = sheet1.createRow(++rowIndex);
 
-            Row row2 = sheet1.createRow(++rowIndex);
-            if (differences.isEmpty()) {
-                row2.createCell(0).setCellValue("No difference found");
-            } else {
-                createStyledCell(row2, 0, titleStyle).setCellValue("xpath");
-                createStyledCell(row2, 1, titleStyle).setCellValue("value");
-                createStyledCell(row2, 2, titleStyle).setCellValue("value");
-                createStyledCell(row2, 3, titleStyle).setCellValue("xpath");
+        Row row2 = sheet1.createRow(++rowIndex);
+        if (differences.isEmpty()) {
+            row2.createCell(0).setCellValue("No difference found");
+        } else {
+            createStyledCell(row2, 0, titleStyle).setCellValue("xpath");
+            createStyledCell(row2, 1, titleStyle).setCellValue("value");
+            createStyledCell(row2, 2, titleStyle).setCellValue("value");
+            createStyledCell(row2, 3, titleStyle).setCellValue("xpath");
 
-                for (Difference difference : differences) {
-                    Row row3 = sheet1.createRow(++rowIndex);
-                    row3.createCell(0).setCellValue(difference.getControlNodeDetail().getXpathLocation());
-                    row3.createCell(1).setCellValue(difference.getControlNodeDetail().getValue());
-                    row3.createCell(2).setCellValue(difference.getTestNodeDetail().getValue());
-                    row3.createCell(3).setCellValue(difference.getTestNodeDetail().getXpathLocation());
-                }
+            for (Difference difference : differences) {
+                Row row3 = sheet1.createRow(++rowIndex);
+                row3.createCell(0).setCellValue(difference.getControlNodeDetail().getXpathLocation());
+                row3.createCell(1).setCellValue(difference.getControlNodeDetail().getValue());
+                row3.createCell(2).setCellValue(difference.getTestNodeDetail().getValue());
+                row3.createCell(3).setCellValue(difference.getTestNodeDetail().getXpathLocation());
             }
-            logger.info("Writing report [" + fileName + "]");
-            wb.write(fileOut);
-        } catch (IOException e) {
-            throw new XmlCompareException("Exception while writing report", e);
         }
+        wb.write(os);
     }
 
-    public void write(File xmlControl, File xmlTest, List<Difference> differences) {
+    public void write(File xmlControl, File xmlTest, List<Difference> differences, OutputStream os) throws IOException {
         String controlFileName = xmlControl.getAbsolutePath();
         String testFileAbsolutePath = xmlTest.getAbsolutePath();
-        write(controlFileName, testFileAbsolutePath, differences);
+        write(controlFileName, testFileAbsolutePath, differences, os);
     }
 
     private CellStyle getTitleCellStyle(Workbook wb) {

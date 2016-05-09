@@ -4,6 +4,7 @@
 package fr.kdefombelle.xmlcompare.cli;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -91,7 +92,13 @@ public class XmlComparatorClient {
         configuration.setIgnoreAttributes(options.has(ignoreAttributesOption));
         List<Difference> differences = xmlComparator.compare(xmlControl, xmlTest, configuration);
 
-        ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter(reportFileName);
-        excelWriter.write(xmlControl, xmlTest, differences);
+        ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter();
+        try(FileOutputStream fos = new FileOutputStream(reportFileName)) {
+            excelWriter.write(xmlControl, xmlTest, differences, fos);
+        } catch (IOException e) {
+            logger.error(XmlComparatorClient.class.getClass().getSimpleName() + " execution failed:", e);
+            return;
+        }
+        logger.info("Writing report [{}]", reportFileName);
     }
 }
