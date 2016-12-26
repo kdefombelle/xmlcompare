@@ -15,17 +15,16 @@
  */
 package fr.kdefombelle.xmlcompare.gui;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 
 
 public class XmlCompareGuiMain extends Application {

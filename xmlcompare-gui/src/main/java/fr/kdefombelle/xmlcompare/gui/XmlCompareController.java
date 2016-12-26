@@ -3,6 +3,11 @@ package fr.kdefombelle.xmlcompare.gui;
 import java.awt.Desktop;
 import java.io.File;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
+import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 import javafx.collections.ObservableList;
 import javafx.concurrent.WorkerStateEvent;
 import javafx.event.ActionEvent;
@@ -23,12 +28,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.util.Pair;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
-import fr.kdefombelle.xmlcompare.gui.model.XmlCompareParameters;
 
 
 public class XmlCompareController extends AnchorPane {
@@ -86,7 +85,7 @@ public class XmlCompareController extends AnchorPane {
 
     @FXML
     private void compare() {
-        logger.debug("Comparison between for " + parameters);
+        logger.debug("Comparison between for {}", parameters);
         if (parameters.getControlFileName() == null) {
             logger.error("control file is null");
             return;
@@ -166,7 +165,7 @@ public class XmlCompareController extends AnchorPane {
 
     @FXML
     private void showHelp(MouseEvent me) {
-        Dialog<Pair<String, String>> dialog = new Dialog<>();
+    	Dialog<Pair<String, String>> dialog = new Dialog<>();
         Image icon = new Image("information.png");
         Stage helpStage = (Stage) dialog.getDialogPane().getScene().getWindow();
         helpStage.getIcons().add(icon);

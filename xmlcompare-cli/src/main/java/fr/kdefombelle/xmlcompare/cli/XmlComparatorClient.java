@@ -9,17 +9,16 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import joptsimple.OptionParser;
-import joptsimple.OptionSet;
-import joptsimple.OptionSpec;
-
-import org.custommonkey.xmlunit.Difference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xmlunit.diff.Difference;
 
 import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
 import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
+import joptsimple.OptionParser;
+import joptsimple.OptionSet;
+import joptsimple.OptionSpec;
 
 
 /**
@@ -90,7 +89,7 @@ public class XmlComparatorClient {
         SimpleXmlComparator xmlComparator = new SimpleXmlComparator();
         XmlComparatorConfiguration configuration = new XmlComparatorConfiguration();
         configuration.setIgnoreAttributes(options.has(ignoreAttributesOption));
-        List<Difference> differences = xmlComparator.compare(xmlControl, xmlTest, configuration);
+        Iterable<Difference> differences = xmlComparator.compare(xmlControl, xmlTest, configuration);
 
         ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter();
         try(FileOutputStream fos = new FileOutputStream(reportFileName)) {

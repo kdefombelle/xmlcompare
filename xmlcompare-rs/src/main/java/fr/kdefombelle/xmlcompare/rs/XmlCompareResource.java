@@ -2,9 +2,7 @@ package fr.kdefombelle.xmlcompare.rs;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.util.List;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -16,11 +14,12 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.core.StreamingOutput;
 
-import org.custommonkey.xmlunit.Difference;
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xmlunit.builder.Input;
+import org.xmlunit.diff.Difference;
 
 import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
 import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
@@ -95,7 +94,7 @@ public class XmlCompareResource {
         logger.info("------------compare");
         logger.debug("------------" + controlIs);
         logger.debug("------------" + controlFileDetail);
-        List<Difference> differences = xmlComparator.compare(new InputStreamReader(controlIs), new InputStreamReader(testIs));
+        Iterable<Difference> differences = xmlComparator.compare(Input.fromStream(controlIs).build(), Input.fromStream(testIs).build());
         ExcelDifferenceWriter excelWriter = new ExcelDifferenceWriter();
 
         StreamingOutput stream = new StreamingOutput() {

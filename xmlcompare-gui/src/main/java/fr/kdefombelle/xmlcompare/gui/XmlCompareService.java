@@ -2,10 +2,10 @@ package fr.kdefombelle.xmlcompare.gui;
 
 import java.io.File;
 
+import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
-import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
 
 
 public class XmlCompareService extends Service<ObservableList<String>> {

@@ -2,17 +2,15 @@ package fr.kdefombelle.xmlcompare.gui;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.List;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.concurrent.Task;
-
-import org.custommonkey.xmlunit.Difference;
+import org.xmlunit.diff.Difference;
 
 import fr.kdefombelle.xmlcompare.core.ExcelDifferenceWriter;
 import fr.kdefombelle.xmlcompare.core.SimpleXmlComparator;
 import fr.kdefombelle.xmlcompare.core.XmlComparatorConfiguration;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 
 
 public class XmlCompareTask extends Task<ObservableList<String>> {
@@ -51,7 +49,7 @@ public class XmlCompareTask extends Task<ObservableList<String>> {
         updateProgress(0, 100);
         updateMessage("start comparison");
         Thread.sleep(PAUSE);
-        List<Difference> differences = xmlComparator.compare(controlFile, testFile, configuration);
+        Iterable<Difference> differences = xmlComparator.compare(controlFile, testFile, configuration);
 
         updateProgress(0, 100);
         updateMessage("writing report");

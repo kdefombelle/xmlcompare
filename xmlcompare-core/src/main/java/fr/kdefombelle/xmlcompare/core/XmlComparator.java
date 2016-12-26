@@ -1,10 +1,10 @@
 package fr.kdefombelle.xmlcompare.core;
 
 import java.io.File;
-import java.io.Reader;
-import java.util.List;
 
-import org.custommonkey.xmlunit.Difference;
+import javax.xml.transform.Source;
+
+import org.xmlunit.diff.Difference;
 
 
 public interface XmlComparator {
@@ -13,12 +13,12 @@ public interface XmlComparator {
     //~ Methods 
     //~ ----------------------------------------------------------------------------------------------------------------
 
-    List<Difference> compare(File controlXml, File testXml);
+	Iterable<Difference> compare(File controlXml, File testXml);
 
-    List<Difference> compare(File controlXml, File testXml, XmlComparatorConfiguration configuration);
+	Iterable<Difference> compare(File controlXml, File testXml, XmlComparatorConfiguration configuration);
 
-    List<Difference> compare(Reader control, Reader test);
+	Iterable<Difference> compare(Source control, Source test);
 
-    List<Difference> compare(Reader control, Reader test, XmlComparatorConfiguration configuration);
+	Iterable<Difference> compare(Source control, Source test, XmlComparatorConfiguration configuration);
 
 }
