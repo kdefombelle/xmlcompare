@@ -3,12 +3,16 @@
  */
 package fr.kdefombelle.xmlcompare.core;
 
+import java.awt.Color;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import org.apache.poi.ss.usermodel.BorderStyle;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.Font;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -80,11 +84,11 @@ public class ExcelDifferenceWriter {
     private CellStyle getTitleCellStyle(Workbook wb) {
         CellStyle titleStyle = wb.createCellStyle();
         titleStyle.setFillBackgroundColor(IndexedColors.AQUA.getIndex());
-        titleStyle.setFillPattern(CellStyle.FINE_DOTS);
-        titleStyle.setBorderBottom(CellStyle.BORDER_THIN);
-        titleStyle.setBorderTop(CellStyle.BORDER_THIN);
-        titleStyle.setBorderLeft(CellStyle.BORDER_THIN);
-        titleStyle.setBorderRight(CellStyle.BORDER_THIN);
+        titleStyle.setFillPattern(FillPatternType.FINE_DOTS);
+        titleStyle.setBorderBottom(BorderStyle.THIN);
+        titleStyle.setBorderTop(BorderStyle.THIN);
+        titleStyle.setBorderLeft(BorderStyle.THIN);
+        titleStyle.setBorderRight(BorderStyle.THIN);
         return titleStyle;
     }
 
