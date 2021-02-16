@@ -30,8 +30,7 @@
 				<version>0.0.5</version>
 				<configuration>
 					<release>11</release>
-					<jlinkImageName>xmlcomparefx</jlinkImageName>
-					<mainClass>xmlcomparefx/fr.kdefombelle.xmlcompare.gui.XmlCompareGuiMain</mainClass>
+					<mainClass>fr.kdefombelle.xmlcompare.gui.XmlCompareGuiMain</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
