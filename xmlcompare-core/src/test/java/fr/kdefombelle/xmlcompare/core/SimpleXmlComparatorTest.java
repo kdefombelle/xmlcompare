@@ -13,8 +13,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.xmlunit.diff.Difference;
 
-import fr.kdefombelle.junit.FileResourcesRule;
-
 public class SimpleXmlComparatorTest {
 
 	@Rule
