@@ -10,7 +10,15 @@
 	<name>project</name>
 	<description>xmlcompare :: ${project.artifactId}</description>
 	<url>http://maven.apache.org</url>
-
+	
+	<licenses>
+	  <license>
+		<name>The MIT License (MIT)</name>
+		<url>https://mit-license.org/</url>
+		<distribution>repo</distribution>
+	  </license>
+	</licenses>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<slf4j.version>1.7.30</slf4j.version>
