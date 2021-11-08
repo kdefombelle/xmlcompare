@@ -73,7 +73,7 @@
                     <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release, publication,gpg</releaseProfiles>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
