@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fr.kdefombelle.xmlcompare</groupId>
-    <artifactId>project</artifactId>
+    <artifactId>xmlcompare</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>project</name>
+    <name>xmlcompare</name>
     <description>xmlcompare :: ${project.artifactId}</description>
     <url>https://github.com/kdefombelle/xmlcompare</url>
 
