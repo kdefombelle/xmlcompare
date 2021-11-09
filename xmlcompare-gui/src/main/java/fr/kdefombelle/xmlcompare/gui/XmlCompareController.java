@@ -170,11 +170,11 @@ public class XmlCompareController extends AnchorPane {
         Stage helpStage = (Stage) dialog.getDialogPane().getScene().getWindow();
         helpStage.getIcons().add(icon);
         dialog.setTitle("About XmlComparator");
-        dialog.setHeaderText("XmlComparator version 1.0-SNAPSHOT");
+//        dialog.setHeaderText("XmlComparator version 1.0-SNAPSHOT");
         dialog.getDialogPane().setContent(new Label("A tool to compare XML files" +
                 "\r\n" +
                 "\r\nkarim.defombelle@gmail.com" +
-                "\r\nhttps://github.com/kdefombelle"));
+                "\r\nhttps://github.com/kdefombelle/xmlcompare"));
         dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
         Image productIcon = new Image("product.png");
         dialog.setGraphic(new ImageView(productIcon));
