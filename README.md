@@ -46,5 +46,6 @@ Command Line Arguments
 |------                 |-----------|
 |-c, --control <File>   |control file|
 |-h, --help             |print this help message|
+|-i                     |ignore XML attributes in comparison|
 |-r, --report           |Excel report file name (default:report-${timestamp}.xlsx)|
 |-t, --test <File>      |file to be compared|
