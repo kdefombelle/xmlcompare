@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>fr.kdefombelle.xmlcompare</groupId>
+		<groupId>io.github.kdefombelle</groupId>
 		<artifactId>xmlcompare</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>fr.kdefombelle.xmlcompare</groupId>
+	<groupId>io.github.kdefombelle</groupId>
 	<artifactId>xmlcompare-cli</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -89,7 +89,7 @@
 
 		<!-- compile scope -->
 		<dependency>
-			<groupId>fr.kdefombelle.xmlcompare</groupId>
+			<groupId>io.github.kdefombelle</groupId>
 			<artifactId>xmlcompare-core</artifactId>
 			<version>${project.version}</version>
 			<scope>compile</scope>
