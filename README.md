@@ -1,6 +1,6 @@
 XmlCompare
 ======================
-
+![](https://github.com/kdefombelle/xmlcompare/workflows/tests/badge.svg)
 ----------------------
 Introduction
 ----------------------
