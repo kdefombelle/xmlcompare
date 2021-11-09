@@ -8,7 +8,7 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>fr.kdefombelle.xmlcompare</groupId>
+	<groupId>io.github.kdefombelle</groupId>
 	<artifactId>xmlcompare-rs</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>

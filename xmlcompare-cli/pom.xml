@@ -52,7 +52,7 @@
 					<programs>
 						<program>
 							<mainClass>fr.kdefombelle.xmlcompare.cli.XmlComparatorClient</mainClass>
-							<name>xmlcompare</name>
+							<id>xmlcompare</id>
 							<jvmSettings>
 								<initialMemorySize>1024m</initialMemorySize>
 							</jvmSettings>
