@@ -26,7 +26,7 @@ The typical usage are illustrated below:
 
 On Windows
 ```sh
-bin\xmlcompare.bat -c sample\loremIpsum1.xml -t sample\loremIpsum1.xml
+bin\xmlcompare.bat -c sample\loremIpsum1.xml -t sample\loremIpsum2.xml
 ```
 On MacOS
 ```sh
