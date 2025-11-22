@@ -1,5 +1,5 @@
 module fr.kdefombelle.xmlcompare.core {
-    requires slf4j.api;
+    requires org.slf4j;
     requires org.xmlunit;
     requires java.xml;
     requires java.desktop;
